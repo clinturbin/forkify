@@ -7,6 +7,8 @@ Forkify is a practice project from the Udemy course The Complete JavaScript Cour
     - npm install --save-dev webpack@4 webpack-cli@2 webpack-dev-server@3
 - Live Server (Package that allows us to create local web server to serve some static website)
     - npm install live-server --global  (installed globally)
+- Webpack plugin
+    - npm install html-webpack-plugin --save-dev
 
 - Babel
     - npm install --save-dev babel-core@6 babel-preset-env@1 babel-loader@7
