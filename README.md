@@ -12,7 +12,7 @@ Forkify is a practice project from the Udemy course The Complete JavaScript Cour
 
 - Babel
     - npm install --save-dev babel-core@6 babel-preset-env@1 babel-loader@7
-    - npm install --save babel-polyfil@6
+    - npm install --save babel-polyfill@6
 - jQuery (installed as an example):
     - npm install jquery --save
     - npm uninstall jquery --save
