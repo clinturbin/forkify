@@ -2,3 +2,5 @@ dist/img/
 
 .DS_Store
 node_modules
+
+src/js/keys.js
