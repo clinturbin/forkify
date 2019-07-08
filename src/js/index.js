@@ -15,7 +15,6 @@ const state = {};
 const controlSearch = async () => {
     // 1) Get the query from the view
     const query = searchView.getInput();
-    console.log(query);
 
     if(query) {
         // 2) New search object and add it to state
@@ -31,11 +30,20 @@ const controlSearch = async () => {
 
         // 5) Render results on UI
         clearLoader();
-        searchView.renderResults(state.search.result);
+        searchView.renderResults(state.search.result, 1);
     }
 };
 
 elements.searchForm.addEventListener('submit', event => {
     event.preventDefault();
     controlSearch();
+});
+
+elements.searchResPages.addEventListener('click', event => {
+    const btn = event.target.closest('.btn-inline');
+    if (btn) {
+        const goToPage = parseInt(btn.dataset.goto, 10);
+        searchView.clearResults();
+        searchView.renderResults(state.search.result, goToPage);
+    }
 });
