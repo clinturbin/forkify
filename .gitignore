@@ -3,4 +3,4 @@ dist/img/
 .DS_Store
 node_modules
 
-src/js/models/keys.js
+src/js/config.js
