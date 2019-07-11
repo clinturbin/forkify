@@ -3,7 +3,7 @@ import { key, proxy } from '../config';
 
 export default class Recipe {
     constructor(id) {
-        this.is = id;
+        this.id = id;
     }
 
     async getRecipe() {
