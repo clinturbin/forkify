@@ -20,6 +20,9 @@ Forkify is a practice project from the Udemy course The Complete JavaScript Cour
 - Fractional (to convert decimal to fraction)
     - npm install fractional --save
 
+- UniqueID (to create unique ids)
+    - npm install uniqid --save
+
 - jQuery (installed as an example):
     - npm install jquery --save
     - npm uninstall jquery --save
