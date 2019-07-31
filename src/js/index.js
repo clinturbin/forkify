@@ -72,7 +72,6 @@ elements.searchResPages.addEventListener('click', event => {
 const controlRecipe = async () => {
     // Get the ID from the URL
     const id = window.location.hash.replace('#', '');
-    console.log(id);
 
     if (id) {
         // Prepare the UI for changes
@@ -215,5 +214,3 @@ elements.recipe.addEventListener('click', event => {
         controlLike();
     }
 });
-
-window.l = new List();
